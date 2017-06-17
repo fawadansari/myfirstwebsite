@@ -289,3 +289,34 @@ p.cr {
     height: 52px;
     background-color: black;
 }
+
+.footer-link {
+    float: left;
+    width: 100%;
+    background: #efefef;
+}
+.footer-link li {
+    float: left;
+    width: 25%;
+    background: red;
+    display: inline-block;
+}
+.footer-link-box {
+    float: left;
+    width: 100%;
+}
+
+.box-links {
+    float: left;
+    width: 100%;
+}
+.box-links li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #efefef;
+}
+.box-links li a {
+    color: white;
+    display: block;
+    padding: 5px;
+}
